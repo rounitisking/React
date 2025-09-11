@@ -1,0 +1,29 @@
+==== WHY TO LEARN REACT ??
+
+react is js library which is used to create complex ui, to make components which are reusable in the code 
+
+==== WHY REACT WAS CREATED AND WHI CREATED IT ??
+
+facebook is the company who developed react bcz they were facing issues in the software that the state of the software was not chaging means js/ state/ variable was not in sync with the browser dom 
+for eg- when the user chekced their messages in the facebook and after viewing the msg no was not going bcz of which recat was introduced 
+
+recat makes SLA (single page application) means the page never relods and the react is never executed instead it is converted into the html css and js in which browser convert the react 
+code into the html css and js. 
+
+
+==== RECAT LEARNING PROCESS ??
+
+babel , fiber , virtual dom , diff algo , hydration
+
+- start with core react (state or ui manipulation, jsx (writing html inside javascript))
+- component reusability
+-reusing of teh components (adding of the properties)
+- how to propogate changes / how to change the state (hooks)
+
+==== ADDITIONAL ADDON TO REACT ??
+
+- router (react does not have it )
+- state management (konsa varible kab update ho raha hai konsa button usse update kr raha hai)
+- class based component (earlier react was class based but now it is fucntional based)
+- BAAS Apps - application which are backend as a service like - firebase , apprite , superbase 
+
