@@ -12,6 +12,16 @@ function customRender(reactEle,container){
     // domEle.setAttribute('target'  , reactEle.props.target) 
     // domEle.target = reactEle.props.target
     // domEle.innerHtml = reactEle.children
+    
+    
+    //automating the process of setting the values in the dom
+    domEle.innerHtml = reactEle.children
+    
+    for (let prop in reactEle.props){
+        if(prop == children) continue
+       domEle.setAttribute(prop , reactEle.props[prop])
+    }
+
 
 
     // now i am injecting the created dom element in the html

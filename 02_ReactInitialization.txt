@@ -3,3 +3,7 @@ npx -node package executor jo kisi package ko download + execute karega, but sys
 command to (CRA) create a react app is - npx create-react-app app_name  (but it very bulky so now a days we use VITE)
 
 WEBPACKS - are act asa translator between the react and the browser in which it converts the react code into the js , html and css bcz browser udnerstands this only
+
+==== TO INITIALIZE THE REACT PROJECT WITH VITE WE HAVE TO DO ??
+
+npm create vite@latest

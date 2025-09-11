@@ -27,3 +27,23 @@ babel , fiber , virtual dom , diff algo , hydration
 - class based component (earlier react was class based but now it is fucntional based)
 - BAAS Apps - application which are backend as a service like - firebase , apprite , superbase 
 
+** WITH REACT WE CAN DO TWO THINGS THE FIRST IS THAT REACT-DOM  FOR WEB DEV AND REACT-NATIVE FOR MOBILE APPLICATION 
+
+
+==== WHAT IS A WEBPACK IN REACT ??
+
+Webpack
+
+React code jo aap likhte ho (JSX, ES6, CSS, images) browser seedha nahi samajhta.
+
+Webpack = tool jo aapka code browser ke liye convert aur bundle karta hai.
+
+JSX → JS
+
+Modern JS → Older JS (taaki sab browsers me chale)
+
+CSS & images → ek package me bundle
+
+Basically: Webpack = code ka “translator + packer”.
+
+** VITE IS ALSO LIKE A CRA AND WEBPACK BUT WITH AN ADDITIONAL (ye fast hot reload aur modern JS features support karta hai.)
