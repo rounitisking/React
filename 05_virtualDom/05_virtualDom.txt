@@ -1,0 +1,43 @@
+Createroot function in the main creates a dom like structure bcz the difference between the browser and the react is that the browser changes the whole dom after every change happens in the ui code but
+in react it stores a coopy of the real dom called as virtual dom and it make changes in the virtual dom then it compares the old real dom with the virual dom and changes only that part which is updated
+in the virtual dom without repainting the whole dom -- The virtual dom is stored in the javascript memory
+
+== DOM WE ARE REFERING HERE IS == THIS DOM IS PRESENT IN THE BROWSER MEMORY 
+
+In Browser (Normal DOM)
+
+The DOM is the tree-like structure that the browser creates from your HTML.
+
+Example:
+
+<div id="app">
+  <h1>Hello</h1>
+  <button>Click</button>
+</div>
+
+
+Browser makes an object tree:
+
+Document
+↳ div (id="app")
+   ↳ h1 ("Hello")
+   ↳ button ("Click")
+
+👉 When we say “DOM” in browser context → we are talking about this tree stored in browser memory.
+
+
+Virtual dom -- it is the virtual representation of the UI of the website 
+Fibre -- it is a algorithm by which react makes the changes happend in vrirtual dom into the real dom 
+        before react 16 the updatein the rel dom was synchronous so once the update started no changes can be made in between and if the changes are larger then the UI would freeze 
+        but in react 16 it prioties the update over the less proority update or stops the updates if the interupts occur -- in fiber we can also set the priority of the work 
+
+        eg - the easier wat to uderstand is that when there is a update going on in the UI and if the user add something then the update will be paused and when the update will begin again it will consider that update
+        with it to reduce the reupdation time which was done in version of react before 16
+
+    REFERENCE -- https://github.com/acdlite/react-fiber-architecture
+
+    HYDRATION PROCESS -- when the layout is done but the functioningis not added, so the adding of the function to the html elements is called as hydration 
+
+    ** when we are using list in html we should always use it with keys so that react can differenciate between the lists and do not update the whole lists
+
+    RECONCILIATION -- it is a algorithm which react uses to differenciate between the tree to make updates
