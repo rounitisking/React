@@ -1,0 +1,23 @@
+tailwind installation steps ::
+
+        npm install tailwindcss @tailwindcss/vite
+
+        update the vite.config.js file with
+
+                import tailwindcss from '@tailwindcss/vite'
+            
+            update the puglin inside the vite.config.js file
+                tailwindcss()
+        
+
+        update the index.css file with 
+            @import "tailwindcss";
+
+        
+        
+        update the main.jsx file with
+            import "index.css file"
+        
+
+        DONE..
+

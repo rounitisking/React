@@ -38,10 +38,11 @@ function App() {
 
       <button onClick={increment}>incr</button>
       <button onClick={decrement}>dcr</button>
-      
+      6
       <p>footer : {count}</p>
     </>
   )
 }
 
 export default App
+6
