@@ -1,14 +1,19 @@
+//HAM EK FILE MAI EK HI DEFAULT EXPORT KR SKTE HAI BUT USKE SATH MULTIPLE NAMED EXPORT KR SKTE HAI 
+//Here i have learned the concept of loader 
+
+
 import React, { useEffect , useState} from 'react'
-
+import { useLoaderData } from 'react-router-dom'
 function Github() {
-    const [data , setdata] = useState([])
+    const data = useLoaderData()
+    // const [data , setdata] = useState([])
 
-    useEffect(()=>{
-        fetch('https://api.github.com/users/rounitisking')
-        // here we are converting the json from string into the json
-        .then((res)=>res.json())
-        .then((res)=> setdata(res))
-    } , [])
+    // useEffect(()=>{
+    //     fetch('https://api.github.com/users/rounitisking')
+    //     // here we are converting the json from string into the json
+    //     .then((res)=>res.json())
+    //     .then((res)=> setdata(res))
+    // } , [])
 
   return (
     <div className='text-center m-4 p-4 bg-amber-800 text-white'>
@@ -24,3 +29,8 @@ function Github() {
 }
 
 export default Github
+
+export const gitHubInfo = async ()=>{
+    const response = await fetch('https://api.github.com/users/rounitisking')
+    return response.json()
+}

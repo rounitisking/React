@@ -6,7 +6,7 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 import Home from "./Home";
 import User from "./User";
-import Github from "./Github";
+import Github,{gitHubInfo} from "./Github";
 
 
-export {Header ,Footer,Home , About , Contact , User , Github}
+export {Header ,Footer,Home , About , Contact , User , Github , gitHubInfo}

@@ -4,8 +4,9 @@ import './index.css'
 import App from './App.jsx'
 import "./index.css"
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
-import {Home , About , Contact , User, Github} from "./components/index.js"
+import {Home , About , Contact , User, Github , gitHubInfo} from "./components/index.js"
 import Layout from "./Layout.jsx"
+
 /*
 router → define all routes (path → component mapping)
 
@@ -33,7 +34,8 @@ const router = createBrowserRouter(createRoutesFromElements(
     <Route path='about' element={<About/>}></Route>
     <Route path='contact' element={<Contact/>}></Route>
     <Route path='user/:user_id' element={<User/>}></Route>
-    <Route path='Github' element={<Github/>}></Route>
+    <Route loader={gitHubInfo} path='Github' element={<Github/>}></Route>
+
   </Route>
 ))
 createRoot(document.getElementById('root')).render(
