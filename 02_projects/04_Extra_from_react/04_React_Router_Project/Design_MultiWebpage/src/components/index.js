@@ -5,6 +5,8 @@ import About from "./About";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import Home from "./Home";
+import User from "./User";
+import Github from "./Github";
 
 
-export {Header ,Footer,Home , About , Contact}
+export {Header ,Footer,Home , About , Contact , User , Github}
