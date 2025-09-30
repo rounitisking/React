@@ -28,10 +28,15 @@ Result → React app can navigate between multiple pages dynamically
   
   
 // ])
+
+
 const router = createBrowserRouter(createRoutesFromElements(
   <Route path='/' element={<Layout/>}>
     <Route path='' element={<Home/>}></Route>
-    <Route path='about' element={<About/>}></Route>
+    <Route path='about' element={<About/>}>
+      {/* <Route path='rounit'></Route>
+      <Route path='singh'></Route> */}
+    </Route>
     <Route path='contact' element={<Contact/>}></Route>
     <Route path='user/:user_id' element={<User/>}></Route>
     <Route loader={gitHubInfo} path='Github' element={<Github/>}></Route>
