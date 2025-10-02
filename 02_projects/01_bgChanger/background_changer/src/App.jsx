@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Buttons from "./component/Buttons.jsx"
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>

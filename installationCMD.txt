@@ -21,3 +21,15 @@ tailwind installation steps ::
 
         DONE..
 
+
+react router installation ::
+
+        npm i react-router-dom
+        
+
+redux installation ::
+        npm i @reduxjs/toolkit
+
+
+react redux installation ::
+        npm i react-redux

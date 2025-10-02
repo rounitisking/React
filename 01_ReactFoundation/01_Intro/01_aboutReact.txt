@@ -2,7 +2,7 @@
 
 react is js library which is used to create complex ui, to make components which are reusable in the code 
 
-==== WHY REACT WAS CREATED AND WHI CREATED IT ??
+==== WHY REACT WAS CREATED AND WHO CREATED IT ??
 
 facebook is the company who developed react bcz they were facing issues in the software that the state of the software was not chaging means js/ state/ variable was not in sync with the browser dom 
 for eg- when the user chekced their messages in the facebook and after viewing the msg no was not going bcz of which recat was introduced 
@@ -46,4 +46,4 @@ CSS & images → ek package me bundle
 
 Basically: Webpack = code ka “translator + packer”.
 
-** VITE IS ALSO LIKE A CRA AND WEBPACK BUT WITH AN ADDITIONAL (ye fast hot reload aur modern JS features support karta hai.)
+** VITE IS ALSO LIKE A CRA - (CREATE REACT APP --- TOOL TO CREATE REACT PROJECT AND FAST SETUP) AND WEBPACK BUT WITH AN ADDITIONAL (ye fast hot reload aur modern JS features support karta hai.)

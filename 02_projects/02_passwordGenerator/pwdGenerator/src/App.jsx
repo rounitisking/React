@@ -17,8 +17,7 @@ If any dependency changes → React will create a new function.
 */
 
 import { useState , useCallback , useEffect , useRef } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 
 function App() {
