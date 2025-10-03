@@ -1,0 +1,47 @@
+tailwind installation steps ::
+
+        npm install tailwindcss @tailwindcss/vite
+
+        update the vite.config.js file with
+
+                import tailwindcss from '@tailwindcss/vite'
+            
+            update the puglin inside the vite.config.js file
+                tailwindcss()
+        
+
+        update the index.css file with 
+            @import "tailwindcss";
+
+        
+        
+        update the main.jsx file with
+            import "index.css file"
+        
+
+        DONE..
+
+
+react router installation ::
+
+        npm i react-router-dom
+        
+
+redux installation ::
+        npm i @reduxjs/toolkit
+
+
+react redux installation ::
+        npm i react-redux
+
+
+
+for virtual text editor ::
+        npm i @tinymce/tinymce-react
+
+
+for html input form ::
+        npm i react-hook-form
+
+
+html-react-parser
